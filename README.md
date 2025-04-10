@@ -40,8 +40,8 @@ contracts/
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-org/mewwme-smart-contracts.git
-cd mewwme-smart-contracts
+git clone https://github.com/your-org/mewwme-contracts.git
+cd mewwme-contracts
 npm install
 ```
 
@@ -78,7 +78,7 @@ npx hardhat node
 Run deployment:
 
 ```bash
-npx hardhat run scripts/deploy.js --network localhost
+npx hardhat run scripts/deploy.ts --network localhost
 ```
 
 ---
